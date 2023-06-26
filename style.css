@@ -53,7 +53,6 @@ section .tentang {
   border-radius: 10px;
   border: none;
   outline: none;
-  padding: 10px;
   font-weight: bold;
   transition: 0.3s;
 }
@@ -64,6 +63,21 @@ section .tentang {
   transition: 0.5s;
   transform: scaleY(1.1);
   color: #fff;
+}
+.c-card {
+  transition: 0.3s;
+  background: #2980b9;
+  background: -webkit-linear-gradient(
+    to right,
+    hsl(207, 100%, 75%),
+    #6dd5fa,
+    #2980b9
+  );
+  background: linear-gradient(to right, hsl(207, 100%, 75%), #6dd5fa, #2980b9);
+  margin-left: 20px;
+}
+.c-card:hover {
+  transform: scale(1.1);
 }
 /* responsive breakpoint */
 
@@ -137,7 +151,7 @@ section .tentang {
     font-size: 15px;
   }
   .c-btn {
-    width: 100%;
+    width: 50%;
   }
   .dekor {
     margin-top: 45px;
